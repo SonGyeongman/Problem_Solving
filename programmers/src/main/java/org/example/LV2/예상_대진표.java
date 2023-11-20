@@ -1,10 +1,8 @@
 package org.example.LV2;
-
-import java.util.Arrays;
-
 public class 예상_대진표 {
     public static void main(String[] args) {
         System.out.println(solution(8, 4, 7));
+        System.out.println(Integer.toBinaryString(3^6));
     }
 
     public static int solution(int n, int a, int b){
