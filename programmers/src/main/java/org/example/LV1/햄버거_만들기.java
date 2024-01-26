@@ -26,8 +26,9 @@ public class 햄버거_만들기 {
                         list.remove(list.size() - j);
                     }
                     answer++;
+                }else{
+                    break;
                 }
-                break;
             }
         }
 
